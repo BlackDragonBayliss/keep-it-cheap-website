@@ -29,7 +29,7 @@ export class SummaryComponent {
       // this.scene.add(this.mesh);
 
       var geometry = new THREE.TorusKnotGeometry( 10, 3, 100, 16 );
-      var material = new THREE.MeshBasicMaterial( { color: 0x2194ce, wireframe: true } );
+      var material = new THREE.MeshBasicMaterial( { color: 0xffff, wireframe: true } );
       // this.torusKnot = new THREE.Mesh( geometry, material );
       this.mesh = new THREE.Mesh(geometry, material);
       this.scene.add( this.mesh );
@@ -50,7 +50,7 @@ export class SummaryComponent {
     
         // set render target sizes here
       // }
-      this.renderer.setClearColor(0xffffff, 1.0);
+      this.renderer.setClearColor(0x000, 1.0);
       this.renderer.setSize( 700, 500, false );
       // this.renderer.setSize(window.innerWidth, window.innerHeight);
       // this.renderer.setSize(width, height);

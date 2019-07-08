@@ -1,35 +1,33 @@
-
 .contain {
     height: 550px;
-    // .contain-flex-box{
-    //     height: 100%;
-    //     // background-color: red;
-    //     .side-contain{
-    //         height: 100%;
-    //         background-color: blue;
-    //     }
-    // }
+    color: #ffffff;
+    background: #000529;
 }
+
+// .contain-flex-box-left{
+//     background: url('/assets/images/lights.jpg');
+//     height: 100%; 
+//     width: 100%; 
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 .contain-flex-box-left{
     background: url('/assets/images/lights.jpg');
-
-    // min-height: 800px; 
-    /* Create the parallax scrolling effect */
-    // background-attachment: fixed;
-    // background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contain-flex-box-right{
-    background-color: white;
-    // padding: 10px 10px 10px 10px;
-}
+// .contain-flex-box-right{
+//     background-color: white;
+//     // padding: 10px 10px 10px 10px;
+// }
+
+
 .image-lights {
     // background-size: 100% 100%;
     // max-width:100%;
     // max-height:100%;
-    // height: 100%; 
-    // width: 100%; 
+    height: 100%; 
+    width: 100%; 
     // object-fit: contain;
     background: url('/assets/images/lights.jpg');
 
