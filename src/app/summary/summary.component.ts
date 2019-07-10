@@ -51,7 +51,7 @@ export class SummaryComponent {
         // set render target sizes here
       // }
       this.renderer.setClearColor(0x000, 1.0);
-      this.renderer.setSize( 700, 500, false );
+      this.renderer.setSize( 718, 500, false );
       // this.renderer.setSize(window.innerWidth, window.innerHeight);
       // this.renderer.setSize(width, height);
       this.rendererContainer.nativeElement.appendChild(this.renderer.domElement);

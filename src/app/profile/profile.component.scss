@@ -1,28 +1,22 @@
-
 .contain {
     height: 550px;
-    // .contain-flex-box{
-    //     height: 100%;
-    //     // background-color: red;
-    //     .side-contain{
-    //         height: 100%;
-    //         background-color: blue;
-    //     }
-    // }
+    color: #ffffff;
+    background: #000529;
+    text-align: center;
 }
-.contain-flex-box-left{
-    background-color: white;
-    padding: 10px 10px 10px 10px;
-}
+// .contain-flex-box-left{
+//     background-color: white;
+//     padding: 10px 10px 10px 10px;
+// }
 .contain-flex-box-right{
-    background: url('/assets/images/prof-min.jpg');
+    background: url('/assets/images/profiley.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg-image {
     /* The image used */
-    background: url('/assets/images/profile.jpg');
+    background: url('/assets/images/profiley.jpg');
     
     /* Add the blur effect */
     // filter: blur(8px);

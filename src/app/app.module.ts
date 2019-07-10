@@ -16,6 +16,7 @@ import { SummaryComponent } from './summary/summary.component';
 import { ContactComponent } from './contact/contact.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ChartComponent } from './chart/chart.component';
+import { ParticlesComponent } from './particles/particles.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ChartComponent } from './chart/chart.component';
     SummaryComponent,
     ContactComponent,
     PricingComponent,
-    ChartComponent
+    ChartComponent,
+    ParticlesComponent
   ],
   imports: [
     BrowserModule,

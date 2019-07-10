@@ -12,7 +12,7 @@
 .divider-pink {
     color: #ffffff;
     height: 100px;
-    background-color: #E95FEB;
+    background-color: #DCBEED;
 }
 .divider-dark-blue {
     color: #ffffff;
@@ -25,4 +25,34 @@
     height: 100px;
     background-color: #FFF9BC;
     
+}
+.particles-wrapper-blue-pink {
+    position: relative;
+    background:linear-gradient(to right,rgb(164, 233, 245),#DCBEED);
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+.particles-wrapper-pink-yellow {
+    position: relative;
+    background:linear-gradient(to right,#DCBEED,#FFF9BC);
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+.particles-wrapper-yellow-pink {
+    position: relative;
+    background:linear-gradient(to right,#FFF9BC,#DCBEED);
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
 }
